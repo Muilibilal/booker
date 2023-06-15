@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Homepage</title>
+  </head>
+  <body>
+    <main>
+      <section class="controls">
+        <ul>
+          <!-- Be able to see all user bookings and filter bookings through a select that has user usernames. Also perform actions like confirming payments by having a select dropdown button on expanding and adding confirmed field to the user-bookings database, also same for updating status to pending or failed -->
+          <li><a href="#">User bookings</a></li>
+          <!-- Confirm payment as successful, failed or declined -->
+          <li><a href="#">Payment requests</a></li>
+          <!-- Update package location using an input field or select field that has processing,in-transit and package delivered-->
+          <li><a href="#">Package update</a></li>
+          <li></li>
+        </ul>
+      </section>
+      <section class="interface">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Transaction ID</th>
+              <th>Product</th>
+              <th>Amount</th>
+              <th>Status</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John Doe</td>
+              <td>JD1240SD001</td>
+              <td>Laptop</td>
+              <td>$1,000</td>
+              <td><span id="status">Failed</span></td>
+              <td class="actions">
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-solid fa-maximize"></i>
+                <i class="fa-solid fa-trash"></i>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
