@@ -1,1 +1,0 @@
-config: This folder contains configuration files for the application, such as database configuration and app settings.
