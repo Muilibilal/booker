@@ -1,0 +1,38 @@
+main#admin-main {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-color: #e5e5e5;
+}
+
+.hero-container {
+  background-image: linear-gradient(
+      90deg,
+      #e4e4e4 10%,
+      #e4e4e4bd 30%,
+      rgba(0, 0, 0, 0.508) 100%
+    ),
+    url(../../assets/images/homepage-bg.jpg);
+  /* background: url(../../assets/images/homepage-bg.jpg); */
+  background-position: 0 0;
+  background-size: cover;
+  width: 60%;
+  max-width: 100%;
+}
+
+.admin-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.admin-form h1 {
+  margin-bottom: 50px;
+}
+
+.admin-form form {
+  width: 100%;
+}
